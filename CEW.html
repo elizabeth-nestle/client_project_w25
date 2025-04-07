@@ -18,10 +18,14 @@
                 <li><a href = "index.html">Home</a></li>
                 <li><a href = "CAPS.html">CAPS</a></li>
                 <li><a href = "Maize_Blue Cupboard.html">Maize & Blue Cupboard</a></li>
-                <li><a href = "CEW.html"><b>CEW+</b></a></li>
+                <li class = "active"><a href = "CEW.html"><b>CEW+</b></a></li>
             </ul>
         </nav>
         <h1>CEW+</h1>
+
+        <script>
+            document.getElementById("year").innerHTML = new Date().getFullYear();
+            </script>
 
     </header>
     <main>
@@ -49,7 +53,7 @@
         <div></div>
     </main>
     <footer>
-        <p>CEW+ | <a href="https://www.cew.umich.edu/">CEW+ official website</a></p>
+        <p>CEW+, <span id="year"></span> | <a href="https://www.cew.umich.edu/">CEW+ official website</a></p>
     </footer>
     
 </body>
